@@ -1,0 +1,28 @@
+.factory-order {
+    height: calc(100vh - 66px);
+    overflow-y: auto;
+    overflow-x: unset;
+    @media (min-width: $grid-breakpoints-md) {
+        .order-item {
+            height: auto;
+        }
+        .image-item-frame {
+            overflow: hidden;
+            width: 203px;
+            height: 203px;
+            box-shadow: 0 3px 6px #c9c9c9;
+        }
+        .button-order_new {
+            width: 250px;
+            height: auto;
+            color: black;
+            font-size: 17pt;
+        }
+        .item-title {
+            font-size: 30px;
+        }
+        .item-amount, .item-date {
+            font-size: 30px;
+        }
+    }
+}

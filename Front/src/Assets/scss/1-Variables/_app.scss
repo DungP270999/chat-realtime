@@ -1,0 +1,90 @@
+$font-family: 'Baloo Chettan 2', cursive !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 600 !default;
+$font-size-base: .875rem !default;
+$font-size-lg: 1rem !default;
+$font-size-sm: .75rem !default;
+$headings-font-weight: 400 !default;
+
+// Spacer
+$spacer: 1rem !default;
+
+$spacers: (
+        0: 0,
+        1: ($spacer * .25),
+        2: ($spacer * .5),
+        3: $spacer,
+        4: ($spacer * 1.5),
+        5: ($spacer * 3),
+        6: ($spacer * 4.5),
+        7: ($spacer * 6)
+) !default;
+
+// Grid breakpoints
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1440px
+) !default;
+
+$grid-breakpoints-xs: 0 !default;
+$grid-breakpoints-sm: 576px !default;
+$grid-breakpoints-md: 768px !default;
+$grid-breakpoints-lg: 992px !default;
+$grid-breakpoints-xl: 1200px !default;
+$grid-breakpoints-xxl: 1400px !default;
+$grid-breakpoints-xxxl: 1600px !default;
+
+// Grid containers
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1200px
+) !default;
+
+// Theme colors
+$blue: #5b7dff !default;
+$red: #f44455 !default;
+$yellow: #fcc100 !default;
+$green: #5fc27e !default;
+$cyan: #47BAC1 !default;
+$pink: #a180da !default;
+$white: white !default;
+
+$color-yahoo-purple: #9161d2 !default;
+$color-yahoo-red: #FF6F91 !default;
+$color-yahoo-yellow: #FFC75F !default;
+$color-yahoo-blue: #6a01e6 !default;
+$color-yahoo-hover: #F2F2F2 !default;
+$color-yahoo-active: #d8d8d8 !default;
+$color-yahoo-border: rgba(176, 176, 176, 0.38) !default;
+
+// Social colors
+$social-colors: (
+        "facebook": #3b5998,
+        "twitter": #1da1f2,
+        "google": #dc4e41,
+        "youtube": #f00,
+        "vimeo": #1ab7ea,
+        "dribbble": #ea4c89,
+        "github": #181717,
+        "instagram": #e4405f,
+        "pinterest": #bd081c,
+        "flickr": #0063dc,
+        "bitbucket": #0052cc
+) !default;
+
+
+$border-color: #DEE2E6 !default;
+
+$sidebar-width: 300px;
+
+$bg-light-theme: linear-gradient(#8E8EFF, #D1EAFF);
+$bg-dark-theme: linear-gradient(#101070, #61686E);
+
+$spinner-color: #004b00 !important;

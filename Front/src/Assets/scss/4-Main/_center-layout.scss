@@ -1,0 +1,63 @@
+.center-layout {
+    height: 100vh;
+    border-right: 1px solid;
+    border-color: $color-yahoo-border;
+
+    .center-layout_image-frame {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .center-layout_header {
+        border-bottom: 1px solid;
+        border-color: $color-yahoo-border;
+    }
+
+    .center-layout_content {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: calc(100vh - 120px);
+    }
+
+    .center-layout_input {
+        height: 45px;
+        width: 90%;
+    }
+
+    .center-layout_btn-send {
+        color: $color-yahoo-purple;
+
+        &:active {
+            color: $color-yahoo-active;
+        }
+    }
+
+    .center-layout_message-frame {
+        background-color: $color-yahoo-purple;
+        color: white;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #ebebeb;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: #C1C1C1;
+
+        &:hover {
+            background: #9c9c9c;
+        }
+    }
+
+}

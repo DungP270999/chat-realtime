@@ -1,0 +1,7 @@
+{
+  "email_secret": "asdhfbuhabfuyhasgbfuhsdfuywe",
+  "emailTokenLife": "2h",
+  "recover_pw_secret": "1zunds5avbbl",
+  "recoverPwTokenLife": "2h",
+  "csLength": 10
+}

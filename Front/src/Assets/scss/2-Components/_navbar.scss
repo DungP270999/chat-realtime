@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #647dff;
+
+    .navbar-item {
+        background-image: linear-gradient($color-yahoo-purple, #a512c1);
+        height: 50px;
+        width: 180px;
+        color: $color-yahoo-yellow;
+        font-weight: bold;
+        justify-content: center;
+        margin-right: 16px;
+    }
+
+    .nav-item_icon {
+        color: white;
+    }
+
+    .active-navbar-item {
+        background-image: linear-gradient($color-yahoo-purple, #a512c1);
+    }
+
+}
+
+

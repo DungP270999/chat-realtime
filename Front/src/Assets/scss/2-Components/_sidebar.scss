@@ -1,0 +1,71 @@
+.sidebar {
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-close {
+    width: 0 !important;
+    transition: 0.5s;
+}
+
+.sidebar-item {
+    margin-left: 0;
+    transition: 0.5s;
+    font-size: 16px;
+    color: #818181;
+
+    .sidebar-title {
+        margin-top: 40px;
+        color: #3BCCF6;
+        margin-left: 40px;
+        font-weight: bold;
+    }
+
+    .sidebar-item_home {
+        font-weight: bold;
+        font-size: 40px;
+        color: #3BCCF6;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .sidebar-item_children {
+        margin-left: 40px;
+        color: #818181;
+    }
+
+    .sidebar-item-notify {
+        margin-right: 35px;
+        font-size: 12px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 16px;
+        border-radius: 30px;
+    }
+
+    .sidebar-item-notify_tracuu {
+        background-color: #EF4545;
+    }
+
+    .sidebar-item-notify_dichvu {
+        background-color: #FFBB00;
+    }
+}
+
+.sidebar-item-close {
+    margin-left: -300px;
+    transition: 0.5s;
+}
+

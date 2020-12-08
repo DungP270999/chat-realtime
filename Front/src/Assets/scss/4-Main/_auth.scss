@@ -1,0 +1,116 @@
+.auth_sign-in {
+    background-image: linear-gradient($color-yahoo-purple, rgb(148, 95, 213));
+    height: 100vh;
+
+    .sign-in_form {
+        background-color: white;
+        border-radius: 5px;
+        width: 500px;
+        box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.26);
+        animation-duration: 0.5s;
+        animation-name: sign-in_form;
+    }
+
+    .sign-in_input {
+        &:focus {
+            box-shadow: unset;
+        }
+
+        width: 400px;
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0;
+    }
+
+    .sign-in_icon-show-password {
+        cursor: pointer;
+    }
+
+    .sign-in_button {
+        background-color: $color-yahoo-purple !important;
+        width: 400px;
+        height: 50px;
+    }
+
+    .sign-in_forgot-password {
+        color: #1da1f2;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+    .sign-in_sign-up {
+        color: #1da1f2;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+
+}
+
+@keyframes sign-in_form {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.auth_forgot-password {
+    background-image: linear-gradient(#3592EF, #69ACEF);
+    height: 100vh;
+
+    .forgot-password_form {
+        background-color: white;
+        border-radius: 5px;
+        width: 500px;
+        box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.26);
+        animation-duration: 0.5s;
+        animation-name: sign-in_form;
+    }
+
+    .forgot-password_input {
+        &:focus {
+            box-shadow: unset;
+        }
+
+        width: 400px;
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0;
+    }
+
+    .forgot-password_icon-show-password {
+        cursor: pointer;
+    }
+
+    .forgot-password_change-button {
+        width: 400px;
+        height: 50px;
+    }
+}
+
+/* Change Auto complete default account styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #ef14db;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
